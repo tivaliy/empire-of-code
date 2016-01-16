@@ -1,4 +1,4 @@
-def checkio(n):
+def golf(n):
     o, t = 0, 0
     for n in n:
         t, o = o, max(o, t) + n
